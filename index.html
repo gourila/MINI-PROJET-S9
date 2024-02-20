@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <fieldset>
+      <div class="container1">
+
+            <h1>Devenez journaliste</h1>
+            <form action="">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label><br><br>
+                    <input type="text" id="nom" size="51"><br><br>
+                </div>
+                <div class="mb-3">
+                    <label for="bio" class="form-label">Brève biographie</label><BR><br>
+                    <textarea class="biographie" cols= "51" id="bio" rows="3"></textarea><br><br>
+
+                </div>
+                <div id="specoul">
+                    <label for="spécialite"></label>
+                    <span>Spécialité </span> <select name="spécialite" id="spécialite">
+                    <option value="choix1">Politique</option>
+                    <option value="choix2">nouvelles internationales</option>
+                    <option value="choix3">Faits divers</option>
+                </select>
+                    <label for="color"></label>
+                    <span>Couleur préférée  </span><select name="color" id="color">
+                    <option value="bleu" style="background-color: #305cfc;" selected></option>
+                    <option value="rouge" style="background-color: #da3747;"></option>
+                    <option value="violet" style="background-color: #8d00e2;"></option>
+                </select>
+                </div>
+               <div id="bou"> <button id="sou" type="submit"> Soumettre </button> <button id="res" type="reset"> Annuler </button></div>
+            </form>
+
+      </div>
+    </fieldset>
+      <div class="container2">
+
+            <h1>Notre équipe</h1>
+             <div class="couleur"> <p>Ash Ketchum</p><div id="bordered">Faits divers</div></div>
+          <div class="couleur"><p>Chloe Cerise</p><div id="borderviolet">nouvelles internationales</div></div>
+              <div class="couleur"><p>Lusamine</p><div id="borderbleu">Politique</div></div>
+      </div>
+</div>
+        </body>
+</html>
+
